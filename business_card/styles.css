@@ -50,3 +50,11 @@
     font-size:20px;
 }
 
+.description{
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    max-width: 500px;
+}
+
+.description-style{
+    color:#26452ad8;
+}
