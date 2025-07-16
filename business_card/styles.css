@@ -58,3 +58,13 @@
 .description-style{
     color:#26452ad8;
 }
+
+.create-card-button{
+    background-color:#26452ad8;
+    border: 2px solid white;
+    border-radius: 10px;
+    color:white;
+    font-size:20px;
+    padding:5px;
+    width: 250px;
+}
