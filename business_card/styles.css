@@ -38,3 +38,9 @@
     color:#26452ad8;
     font-weight: 700;
 }
+
+.description-and-button-container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
