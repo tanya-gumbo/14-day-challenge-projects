@@ -11,3 +11,8 @@
     font-size:20px;
     padding:10px;
 }
+
+.content-container{
+    display:flex;
+    justify-content: center;
+}
