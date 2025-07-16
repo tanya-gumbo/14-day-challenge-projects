@@ -16,3 +16,14 @@
     display:flex;
     justify-content: center;
 }
+
+.page-heading{
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size:40px;
+}
+
+.business-name{
+    font-size: 40px;
+    color:#26452ad8;
+    font-weight: 700;
+}
