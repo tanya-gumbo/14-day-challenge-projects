@@ -3,6 +3,12 @@
     padding:0;
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:azure;
+}
+
+.body{
+    min-height: 100vh;
+    background-color:#3f7145d8;
 }
 
 .toggle-menu{
@@ -30,11 +36,11 @@
 
 .page-heading{
     font-family: 'Arial Rounded MT Bold', sans-serif;
-    font-size:40px;
+    font-size:60px;
 }
 
 .business-name{
-    font-size: 40px;
+    font-size: 60px;
     color:#26452ad8;
     font-weight: 700;
 }
@@ -42,17 +48,17 @@
 .description-and-button-container{
     display:flex;
     flex-direction: column;
-    gap:10px;
+    gap:20px;
 }
 
 .tagline-container{
     display:flex;
-    font-size:20px;
+    font-size:30px;
 }
 
 .description{
     font-family: 'Arial Rounded MT Bold', sans-serif;
-    max-width: 500px;
+    max-width: 800px;
 }
 
 .description-style{
@@ -61,7 +67,7 @@
 
 .create-card-button{
     background-color:#26452ad8;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 10px;
     color:white;
     font-size:20px;
