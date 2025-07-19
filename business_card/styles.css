@@ -18,6 +18,10 @@
     padding:15px;
 }
 
+.nav-links{
+    text-decoration: none;
+}
+
 .content-container{
     display:flex;
     justify-content:space-around;
