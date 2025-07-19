@@ -102,6 +102,23 @@
     object-position: center;
 }
 
+.name{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.title{
+    color:rgb(211, 225, 225);
+    font-size:20px;
+    font-weight: 500;
+}
+
+.company{
+    color:rgb(211, 225, 225);
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .socials-container{
     display:flex;
     flex-direction: column;
