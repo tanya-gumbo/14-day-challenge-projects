@@ -98,9 +98,13 @@
 }
 
 .socials-button{
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
     background-color:transparent;
     border-radius:10px;
     border:2px solid white;
     padding:5px;
-    font-size:15px;
+    gap: 8px;
+    font-size:20px;
 }
