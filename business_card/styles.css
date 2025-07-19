@@ -100,7 +100,7 @@
 .socials-button{
     display: inline-flex;
     align-items:center;
-    justify-content: center;
+    justify-content:flex-start;
     background-color:transparent;
     border-radius:10px;
     border:2px solid white;
