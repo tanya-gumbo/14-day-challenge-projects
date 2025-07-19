@@ -91,6 +91,11 @@
     gap:5px;
 }
 
+.socials-container{
+    display:flex;
+    flex-direction: column;
+    gap:7px;
+}
 
 .socials-button{
     background-color:transparent;
