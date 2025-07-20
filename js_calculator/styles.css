@@ -12,6 +12,7 @@
 
 .calculator-container{
     display: flex;
+    flex-direction: column;
     background-color: #395977;
     width:500px;
     height:600px;
@@ -29,3 +30,4 @@
     font-family: 'Courier New', Courier, monospace;
     font-size:10px;
 }
+
