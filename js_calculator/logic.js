@@ -51,8 +51,14 @@ function evaluateExpression(){
                 result = result * Number(numbersArray[x+1]);
                 break;
             case "/":
-                result = result / Number(numbersArray[x+1]);
-                break; 
+                if (numbersArray[x+1] == 0){
+                    console.log("we are in")
+                    alert("Division by 0. ERROR.")
+                    break;
+                }else{
+                    result = result / Number(numbersArray[x+1]);
+                    break;
+                } 
             case "+":
                 result = result + Number(numbersArray[x+1]);
                 break; 
