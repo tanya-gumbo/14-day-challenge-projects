@@ -16,7 +16,7 @@ An interactive landing page designed to showcase an example of a business that a
 
 ### How to Use
 
-Open the project folder (`day1-digital-business-card`), then open `index.html` in any modern browser. Play around with the example card and click the icons to see redirections.
+Open the project folder (`business_card`), then open `index.html` in any modern browser. Play around with the example card and click the icons to see redirections.
 
 **Resources used in this project**
 
@@ -24,7 +24,17 @@ Profile picture by DM David
 Link: https://unsplash.com/photos/woman-looks-intently-at-the-camera-working-on-computers-EO6IK_Bx5IU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
 
 Background image by Daniel Gomez
-Link: Photo by https://unsplash.com/photos/ferns-bask-in-dappled-sunlight-in-a-forest-FCVMPabu16w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+Link: https://unsplash.com/photos/ferns-bask-in-dappled-sunlight-in-a-forest-FCVMPabu16w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
 
 All icons were made using icons8
 Link: https://icons8.com/icon/38159/gmail-logo
+
+
+#Project 2: Js Calculator
+
+An simple calculator to test my event handling, functions and state handling skills
+
+### Features
+
+- **Display** Shows text when the user clicks on non functional keys like the equals and clear key. 
+- **Keypad** contains the keys on a typical calculator
