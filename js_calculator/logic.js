@@ -79,4 +79,13 @@ keypadKeys.forEach(element => {
     })
 });
 
+let clearButton = document.querySelector(".clear");
+clearButton.addEventListener("click", () =>{
+    displayText.textContent = "";
+})
 
+let equalButton = document.querySelector(".equals");
+equalButton.addEventListener("click", ()=>{
+    returnText = evaluateExpression();
+    displayText.textContent = returnText;
+})
