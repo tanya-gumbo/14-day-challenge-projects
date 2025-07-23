@@ -52,6 +52,19 @@
 }
 
 
+.digit-key{
+    display:flex;
+    justify-content: center;
+    width:100px;
+    height:100px;
+    background-color:#dce4f0;
+    border: 2px solid white;
+    border-radius:10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
+    color:#395977;  
+}
+
 .function-keypad{
     display:flex;
     flex-direction: column;
