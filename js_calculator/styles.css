@@ -23,13 +23,17 @@
 }
 
 .display{
+    display: flex;
     background-color: #dce4f0;
     width:480px;
     height:150px;
     border: 2px solid white;
     border-radius:10px;
     font-family: 'Courier New', Courier, monospace;
-    font-size:10px;
+    font-size:40px;
+    justify-content: right;
+    align-items: center;
+    color: #395977;
 }
 
 .keypads{
