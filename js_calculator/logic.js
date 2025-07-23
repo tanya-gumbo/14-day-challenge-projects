@@ -28,6 +28,19 @@ function populateDigitKeypad(){
 
 populateDigitKeypad()
 
+function separateNumsFromOperands(){
+    let expression = userExpression;
+    for (let letter of expression){
+        if (letter in numbersExamples){
+            currentNumber = currentNumber + letter;
+        }else{
+            numbersArray.push(currentNumber);
+            currentNumber = "";
+            operatorsArray.push(letter);
+        }
+    }
+}
+
 function evaluateExpression(){
     separateNumsFromOperands();
     let result = Number(numbersArray[0]);
