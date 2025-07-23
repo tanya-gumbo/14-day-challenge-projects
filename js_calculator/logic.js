@@ -1,4 +1,9 @@
-console.log("Ma1");
+operatorsArray = [];
+numbersArray = [];
+numbersExamples = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+let currentNumber = "";
+let operator = "";
+let userExpression = "";
 
 function populateDigitKeypad(){
     for (let x = 0; x < 10; x++){
@@ -22,3 +27,30 @@ function populateDigitKeypad(){
 }
 
 populateDigitKeypad()
+
+function evaluateExpression(){
+    separateNumsFromOperands();
+    let result = Number(numbersArray[0]);
+    for (let x = 0; x < operatorsArray.length; x++){
+        let currentOperator = operatorsArray[x];
+        switch(currentOperator){
+            case "x":
+                result = result * Number(numbersArray[x+1]);
+                break;
+            case "/":
+                result = result / Number(numbersArray[x+1]);
+                break; 
+            case "+":
+                result = result + Number(numbersArray[x+1]);
+                break; 
+            case "-":
+                result = result - Number(numbersArray[x+1]);
+                break; 
+        }
+    }
+    console.log(`The result of calculation is ${result}`);
+    numbersArray = [];
+    operatorsArray = [];
+    userExpression = "";
+    return result;
+}
