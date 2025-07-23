@@ -67,3 +67,16 @@ function evaluateExpression(){
     userExpression = "";
     return result;
 }
+
+let displayText = document.querySelector(".display");
+displayText.textContent = "";
+let keypadKeys = document.querySelectorAll(".digit-key, .function-key");
+keypadKeys.forEach(element => {
+    element.addEventListener("click" , ()=>{
+        text = element.textContent;
+        userExpression = userExpression + text;
+        displayText.textContent = userExpression;
+    })
+});
+
+
